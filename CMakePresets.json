@@ -1,0 +1,28 @@
+{
+  "version": 10,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 30
+  },
+  "configurePresets": [
+    {
+      "name": "debug",
+      "displayName": "Debug",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_CXX_COMPILER": "clang.exe"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "configurePreset": "debug",
+      "name": "debug"
+
+
+    }
+  ]
+
+}
