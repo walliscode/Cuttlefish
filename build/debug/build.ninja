@@ -4141,6 +4141,27 @@ build src/install/strip: phony src/CMakeFiles/install/strip.util
 
 build cmake_object_order_depends_target_display: phony || cmake_object_order_depends_target_freetype cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window
 
+build src/Display/CMakeFiles/display.dir/display_manager.cpp.obj.ddi: CXX_SCAN__display_Debug C$:/Users/benja/source/repos/walliscode/Cuttlefish/src/display/display_manager.cpp || cmake_object_order_depends_target_display
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = src\Display\CMakeFiles\display.dir\display_manager.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = src\Display\CMakeFiles\display.dir\display_manager.cpp.obj.ddi
+  FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
+  INCLUDES = -isystem C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/include
+  OBJ_FILE = src\Display\CMakeFiles\display.dir\display_manager.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = src\Display\CMakeFiles\display.dir\display_manager.cpp.obj.ddi.i
+
+build src/Display/CMakeFiles/display.dir/display_manager.cpp.obj: CXX_COMPILER__display_scanned_Debug C$:/Users/benja/source/repos/walliscode/Cuttlefish/src/display/display_manager.cpp | src/Display/CMakeFiles/display.dir/display_manager.cpp.obj.modmap || cmake_object_order_depends_target_display src/Display/CMakeFiles/display.dir/CXX.dd
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = src\Display\CMakeFiles\display.dir\display_manager.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = src\Display\CMakeFiles\display.dir\display_manager.cpp.obj.modmap
+  FLAGS = -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
+  INCLUDES = -isystem C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/include
+  OBJECT_DIR = src\Display\CMakeFiles\display.dir
+  OBJECT_FILE_DIR = src\Display\CMakeFiles\display.dir
+  TARGET_COMPILE_PDB = src\Display\CMakeFiles\display.dir\display.pdb
+  TARGET_PDB = src\Display\display.pdb
+  dyndep = src/Display/CMakeFiles/display.dir/CXX.dd
+
 build src/Display/CMakeFiles/display.dir/display.cppm.obj.ddi: CXX_SCAN__display_Debug C$:/Users/benja/source/repos/walliscode/Cuttlefish/src/display/display.cppm || cmake_object_order_depends_target_display
   DEFINES = -DSFML_STATIC
   DEP_FILE = src\Display\CMakeFiles\display.dir\display.cppm.obj.ddi.d
@@ -4183,7 +4204,7 @@ build src/Display/CMakeFiles/display.dir/display_manager.cppm.obj: CXX_COMPILER_
   TARGET_PDB = src\Display\display.pdb
   dyndep = src/Display/CMakeFiles/display.dir/CXX.dd
 
-build src/Display/CMakeFiles/display.dir/CXX.dd | C$:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/src/Display/CMakeFiles/display.dir/CXXModules.json src/Display/CMakeFiles/display.dir/display.cppm.obj.modmap src/Display/CMakeFiles/display.dir/display_manager.cppm.obj.modmap: CXX_DYNDEP__display_Debug src/Display/CMakeFiles/display.dir/display.cppm.obj.ddi src/Display/CMakeFiles/display.dir/display_manager.cppm.obj.ddi | C$:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/src/Display/CMakeFiles/display.dir/CXXDependInfo.json
+build src/Display/CMakeFiles/display.dir/CXX.dd | C$:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/src/Display/CMakeFiles/display.dir/CXXModules.json src/Display/CMakeFiles/display.dir/display_manager.cpp.obj.modmap src/Display/CMakeFiles/display.dir/display.cppm.obj.modmap src/Display/CMakeFiles/display.dir/display_manager.cppm.obj.modmap: CXX_DYNDEP__display_Debug src/Display/CMakeFiles/display.dir/display_manager.cpp.obj.ddi src/Display/CMakeFiles/display.dir/display.cppm.obj.ddi src/Display/CMakeFiles/display.dir/display_manager.cppm.obj.ddi | C$:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/src/Display/CMakeFiles/display.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -4193,7 +4214,7 @@ build src/Display/CMakeFiles/display.dir/CXX.dd | C$:/Users/benja/source/repos/w
 #############################################
 # Link the static library src\Display\display.lib
 
-build src/Display/display.lib: CXX_STATIC_LIBRARY_LINKER__display_Debug src/Display/CMakeFiles/display.dir/display.cppm.obj src/Display/CMakeFiles/display.dir/display_manager.cppm.obj || _deps/sfml-build/lib/freetyped.lib _deps/sfml-build/lib/sfml-graphics-s-d.lib _deps/sfml-build/lib/sfml-system-s-d.lib _deps/sfml-build/lib/sfml-window-s-d.lib
+build src/Display/display.lib: CXX_STATIC_LIBRARY_LINKER__display_Debug src/Display/CMakeFiles/display.dir/display_manager.cpp.obj src/Display/CMakeFiles/display.dir/display.cppm.obj src/Display/CMakeFiles/display.dir/display_manager.cppm.obj || _deps/sfml-build/lib/freetyped.lib _deps/sfml-build/lib/sfml-graphics-s-d.lib _deps/sfml-build/lib/sfml-system-s-d.lib _deps/sfml-build/lib/sfml-window-s-d.lib
   LANGUAGE_COMPILE_FLAGS = -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview
   OBJECT_DIR = src\Display\CMakeFiles\display.dir
   POST_BUILD = cd .

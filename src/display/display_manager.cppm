@@ -1,10 +1,16 @@
 module;
-#include <iostream>
-
+#include <SFML/Graphics.hpp>
 export module display:display_manager;
 
 export class DisplayManager {
+
+private:
+  sf::RenderWindow m_window;
+  void init();
+
 public:
-    DisplayManager() = default;
-    void display() { std::cout << "Displaying" << std::endl; };
+  DisplayManager();
+
+  void run();
+  void display();
 };

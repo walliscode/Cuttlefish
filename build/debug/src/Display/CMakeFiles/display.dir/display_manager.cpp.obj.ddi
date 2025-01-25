@@ -3,11 +3,9 @@
   "rules": [
     {
       "primary-output": "src\\Display\\CMakeFiles\\display.dir\\display_manager.cpp.obj",
-      "provides": [
+      "requires": [
         {
-          "is-interface": false,
-          "logical-name": "display:display_manager",
-          "source-path": "C:/Users/benja/source/repos/walliscode/Cuttlefish/src/display/display_manager.cpp"
+          "logical-name": "display"
         }
       ]
     }

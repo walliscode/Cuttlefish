@@ -1219,6 +1219,12 @@
 },
 {
   "directory": "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DSFML_STATIC -isystem C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/include -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview @src\\Display\\CMakeFiles\\display.dir\\display_manager.cpp.obj.modmap -o src\\Display\\CMakeFiles\\display.dir\\display_manager.cpp.obj -c C:\\Users\\benja\\source\\repos\\walliscode\\Cuttlefish\\src\\display\\display_manager.cpp",
+  "file": "C:\\Users\\benja\\source\\repos\\walliscode\\Cuttlefish\\src\\display\\display_manager.cpp",
+  "output": "src\\Display\\CMakeFiles\\display.dir\\display_manager.cpp.obj"
+},
+{
+  "directory": "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug",
   "command": "C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DSFML_STATIC -isystem C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/include -O0 -std=gnu++20 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview @src\\Display\\CMakeFiles\\display.dir\\display.cppm.obj.modmap -o src\\Display\\CMakeFiles\\display.dir\\display.cppm.obj -c C:\\Users\\benja\\source\\repos\\walliscode\\Cuttlefish\\src\\display\\display.cppm",
   "file": "C:\\Users\\benja\\source\\repos\\walliscode\\Cuttlefish\\src\\display\\display.cppm",
   "output": "src\\Display\\CMakeFiles\\display.dir\\display.cppm.obj"
