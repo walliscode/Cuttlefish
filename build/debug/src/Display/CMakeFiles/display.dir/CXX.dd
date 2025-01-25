@@ -1,9 +1,0 @@
-ninja_dyndep_version = 1.0
-build src/Display/CMakeFiles/display.dir/display_manager.cpp.obj: dyndep | src/Display/CMakeFiles/display.dir/display.pcm
-
-build src/Display/CMakeFiles/display.dir/display.cppm.obj | src/Display/CMakeFiles/display.dir/display.pcm: dyndep | src/Display/CMakeFiles/display.dir/display-display_manager.pcm
-  restat = 1
-
-build src/Display/CMakeFiles/display.dir/display_manager.cppm.obj | src/Display/CMakeFiles/display.dir/display-display_manager.pcm: dyndep
-  restat = 1
-

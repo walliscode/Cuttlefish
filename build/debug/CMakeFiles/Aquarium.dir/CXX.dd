@@ -1,3 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/Aquarium.dir/runner/main.cpp.obj: dyndep | src/Display/CMakeFiles/display.dir/display.pcm
-
