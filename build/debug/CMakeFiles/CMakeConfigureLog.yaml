@@ -59,27 +59,28 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-luqyid"
-      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-luqyid"
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6atfkc"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6atfkc"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-luqyid'
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6atfkc'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_39bd9
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_39bd9.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_39bd9.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_39bd9.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -v  -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_39bd9.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_39bd9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_39bd9.lib -Xlinker /pdb:cmTC_39bd9.pdb -Xlinker /version:0.0     && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_567ca
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_567ca.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_567ca.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_567ca.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -v  -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_567ca.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_567ca.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_567ca.lib -Xlinker /pdb:cmTC_567ca.pdb -Xlinker /version:0.0     && cd ."
         clang version 19.1.5
         Target: x86_64-pc-windows-msvc
         Thread model: posix
         InstalledDir: C:\\Program Files\\LLVM\\bin
-         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_39bd9.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\19\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_39bd9.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_39bd9.lib /pdb:cmTC_39bd9.pdb /version:0.0\x0d
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_567ca.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\19\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_567ca.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_567ca.lib /pdb:cmTC_567ca.pdb /version:0.0\x0d
         
       exitCode: 0
   -
@@ -143,21 +144,22 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-utsi0p"
-      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-utsi0p"
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-00iju3"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-00iju3"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0"
       CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-utsi0p'
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-00iju3'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_32703
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_32703.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_32703.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_32703.dir/feature_tests.cxx.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-utsi0p/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_32703.dir/feature_tests.cxx.obj -o cmTC_32703.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_32703.lib -Xlinker /pdb:cmTC_32703.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_acf0a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_acf0a.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_acf0a.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_acf0a.dir/feature_tests.cxx.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-00iju3/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_acf0a.dir/feature_tests.cxx.obj -o cmTC_acf0a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_acf0a.lib -Xlinker /pdb:cmTC_acf0a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
   -
@@ -172,21 +174,1582 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-lbrxw2"
-      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-lbrxw2"
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-f8nulw"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-f8nulw"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
       CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0"
       CMAKE_EXE_LINKER_FLAGS: ""
     buildResult:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-lbrxw2'
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-f8nulw'
         
-        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_98789
-        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_98789.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_98789.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_98789.dir/feature_tests.cxx.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-lbrxw2/feature_tests.cxx
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_98789.dir/feature_tests.cxx.obj -o cmTC_98789.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_98789.lib -Xlinker /pdb:cmTC_98789.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_af55a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -std=c++14 -MD -MT CMakeFiles/cmTC_af55a.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_af55a.dir\\feature_tests.cxx.obj.d -o CMakeFiles/cmTC_af55a.dir/feature_tests.cxx.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-f8nulw/feature_tests.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_af55a.dir/feature_tests.cxx.obj -o cmTC_af55a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_af55a.lib -Xlinker /pdb:cmTC_af55a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
         
       exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/debug/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/3.31.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/debug/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "build/debug/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/debug/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6oevu2"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6oevu2"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6oevu2'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e47ff
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_e47ff.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_e47ff.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_e47ff.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -v  -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_e47ff.dir/CMakeCCompilerABI.c.obj -o cmTC_e47ff.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e47ff.lib -Xlinker /pdb:cmTC_e47ff.pdb -Xlinker /version:0.0     && cd ."
+        clang version 19.1.5
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\Program Files\\LLVM\\bin
+         "C:\\\\Program Files\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_e47ff.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.42.34433\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.22621.0\\\\um\\\\x64" "-libpath:C:\\\\Program Files\\\\LLVM\\\\lib\\\\clang\\\\19\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_e47ff.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_e47ff.lib /pdb:cmTC_e47ff.pdb /version:0.0\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/debug/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/LLVM/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/debug/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/debug/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "build/debug/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/LLVM/bin/lld-link" "--version"
+      LLD 19.1.5
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/debug/_deps/sfml-src/src/SFML/System/CMakeLists.txt:69 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-igkrvg"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-igkrvg"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-igkrvg'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_780fe
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_780fe.dir/src.c.obj -MF CMakeFiles\\cmTC_780fe.dir\\src.c.obj.d -o CMakeFiles/cmTC_780fe.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-igkrvg/src.c
+        FAILED: CMakeFiles/cmTC_780fe.dir/src.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DCMAKE_HAVE_LIBC_PTHREAD  -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_780fe.dir/src.c.obj -MF CMakeFiles\\cmTC_780fe.dir\\src.c.obj.d -o CMakeFiles/cmTC_780fe.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-igkrvg/src.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-igkrvg/src.c:1:10: fatal error: 'pthread.h' file not found\x0d
+            1 | #include <pthread.h>\x0d
+              |          ^~~~~~~~~~~\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/debug/_deps/sfml-src/src/SFML/System/CMakeLists.txt:69 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-zvz1mv"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-zvz1mv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-zvz1mv'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_43864
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_43864.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_43864.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_43864.dir/CheckFunctionExists.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-zvz1mv/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_43864.dir/CheckFunctionExists.c.obj -o cmTC_43864.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_43864.lib -Xlinker /pdb:cmTC_43864.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_43864.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_43864.dir/CheckFunctionExists.c.obj -o cmTC_43864.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_43864.lib -Xlinker /pdb:cmTC_43864.pdb -Xlinker /version:0.0   -lpthreads.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'pthreads.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/debug/_deps/sfml-src/src/SFML/System/CMakeLists.txt:69 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-w9q670"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-w9q670"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-w9q670'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_c334a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_c334a.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_c334a.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_c334a.dir/CheckFunctionExists.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-w9q670/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_c334a.dir/CheckFunctionExists.c.obj -o cmTC_c334a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c334a.lib -Xlinker /pdb:cmTC_c334a.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_c334a.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=pthread_create -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_c334a.dir/CheckFunctionExists.c.obj -o cmTC_c334a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_c334a.lib -Xlinker /pdb:cmTC_c334a.pdb -Xlinker /version:0.0   -lpthread.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'pthread.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:136 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:179 (_threads_check_flag_pthread)"
+      - "build/debug/_deps/sfml-src/src/SFML/System/CMakeLists.txt:69 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-qrcjhw"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-qrcjhw"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-qrcjhw'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_ec791
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_ec791.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_ec791.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_ec791.dir/CheckForPthreads.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-qrcjhw/CheckForPthreads.c
+        FAILED: CMakeFiles/cmTC_ec791.dir/CheckForPthreads.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_ec791.dir/CheckForPthreads.c.obj -MF CMakeFiles\\cmTC_ec791.dir\\CheckForPthreads.c.obj.d -o CMakeFiles/cmTC_ec791.dir/CheckForPthreads.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-qrcjhw/CheckForPthreads.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-qrcjhw/CheckForPthreads.c:1:10: fatal error: 'pthread.h' file not found\x0d
+            1 | #include <pthread.h>\x0d
+              |          ^~~~~~~~~~~\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake:98 (try_compile)"
+      - "build/debug/_deps/sfml-src/src/SFML/Window/CMakeLists.txt:317 (check_include_file_cxx)"
+    checks:
+      - "Looking for C++ include dinput.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-976whn"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-976whn"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-976whn'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d1265
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_d1265.dir/CheckIncludeFile.cxx.obj -MF CMakeFiles\\cmTC_d1265.dir\\CheckIncludeFile.cxx.obj.d -o CMakeFiles/cmTC_d1265.dir/CheckIncludeFile.cxx.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-976whn/CheckIncludeFile.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_d1265.dir/CheckIncludeFile.cxx.obj -o cmTC_d1265.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d1265.lib -Xlinker /pdb:cmTC_d1265.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:57 (check_include_files)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-i5khdq"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-i5khdq"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-i5khdq'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_b11f9
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_b11f9.dir/INCLUDE_INTTYPES_H.c.obj -MF CMakeFiles\\cmTC_b11f9.dir\\INCLUDE_INTTYPES_H.c.obj.d -o CMakeFiles/cmTC_b11f9.dir/INCLUDE_INTTYPES_H.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-i5khdq/INCLUDE_INTTYPES_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_b11f9.dir/INCLUDE_INTTYPES_H.c.obj -o cmTC_b11f9.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b11f9.lib -Xlinker /pdb:cmTC_b11f9.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:58 (check_include_files)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ycgi42"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ycgi42"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ycgi42'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_18aad
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_18aad.dir/INCLUDE_STDINT_H.c.obj -MF CMakeFiles\\cmTC_18aad.dir\\INCLUDE_STDINT_H.c.obj.d -o CMakeFiles/cmTC_18aad.dir/INCLUDE_STDINT_H.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ycgi42/INCLUDE_STDINT_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_18aad.dir/INCLUDE_STDINT_H.c.obj -o cmTC_18aad.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_18aad.lib -Xlinker /pdb:cmTC_18aad.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:59 (check_include_files)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-rqtfcw"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-rqtfcw"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-rqtfcw'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d14fe
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_d14fe.dir/INCLUDE_SYS_TYPES_H.c.obj -MF CMakeFiles\\cmTC_d14fe.dir\\INCLUDE_SYS_TYPES_H.c.obj.d -o CMakeFiles/cmTC_d14fe.dir/INCLUDE_SYS_TYPES_H.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-rqtfcw/INCLUDE_SYS_TYPES_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_d14fe.dir/INCLUDE_SYS_TYPES_H.c.obj -o cmTC_d14fe.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d14fe.lib -Xlinker /pdb:cmTC_d14fe.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-xwb3z3"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-xwb3z3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-xwb3z3'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_6bbfd
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_6bbfd.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_6bbfd.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_6bbfd.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-xwb3z3/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_6bbfd.dir/CheckIncludeFile.c.obj -o cmTC_6bbfd.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6bbfd.lib -Xlinker /pdb:cmTC_6bbfd.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-rqyzmt"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-rqyzmt"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-rqyzmt'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_ca087
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_ca087.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_ca087.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_ca087.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-rqyzmt/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_ca087.dir/CheckIncludeFile.c.obj -o cmTC_ca087.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ca087.lib -Xlinker /pdb:cmTC_ca087.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-cmmuui"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-cmmuui"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-cmmuui'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_f4146
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_f4146.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_f4146.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_f4146.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-cmmuui/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_f4146.dir/CheckIncludeFile.c.obj -o cmTC_f4146.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f4146.lib -Xlinker /pdb:cmTC_f4146.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int16_t"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-znhfsc"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-znhfsc"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-znhfsc'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_fce8b
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_fce8b.dir/INT16_SIZE.c.obj -MF CMakeFiles\\cmTC_fce8b.dir\\INT16_SIZE.c.obj.d -o CMakeFiles/cmTC_fce8b.dir/INT16_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-znhfsc/INT16_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_fce8b.dir/INT16_SIZE.c.obj -o cmTC_fce8b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_fce8b.lib -Xlinker /pdb:cmTC_fce8b.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:4 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of uint16_t"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-zyemi1"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-zyemi1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UINT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-zyemi1'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d2a13
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_d2a13.dir/UINT16_SIZE.c.obj -MF CMakeFiles\\cmTC_d2a13.dir\\UINT16_SIZE.c.obj.d -o CMakeFiles/cmTC_d2a13.dir/UINT16_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-zyemi1/UINT16_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_d2a13.dir/UINT16_SIZE.c.obj -o cmTC_d2a13.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d2a13.lib -Xlinker /pdb:cmTC_d2a13.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:5 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of u_int16_t"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_U_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_4a0c3
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_4a0c3.dir/U_INT16_SIZE.c.obj -MF CMakeFiles\\cmTC_4a0c3.dir\\U_INT16_SIZE.c.obj.d -o CMakeFiles/cmTC_4a0c3.dir/U_INT16_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c
+        FAILED: CMakeFiles/cmTC_4a0c3.dir/U_INT16_SIZE.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_4a0c3.dir/U_INT16_SIZE.c.obj -MF CMakeFiles\\cmTC_4a0c3.dir\\U_INT16_SIZE.c.obj.d -o CMakeFiles/cmTC_4a0c3.dir/U_INT16_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:29:12: error: use of undeclared identifier 'u_int16_t'
+           29 |   ('0' + ((SIZE / 10000)%10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:27:22: note: expanded from macro 'SIZE'
+           27 | #define SIZE (sizeof(u_int16_t))
+              |                      ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:30:12: error: use of undeclared identifier 'u_int16_t'
+           30 |   ('0' + ((SIZE / 1000)%10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:27:22: note: expanded from macro 'SIZE'
+           27 | #define SIZE (sizeof(u_int16_t))
+              |                      ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:31:12: error: use of undeclared identifier 'u_int16_t'
+           31 |   ('0' + ((SIZE / 100)%10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:27:22: note: expanded from macro 'SIZE'
+           27 | #define SIZE (sizeof(u_int16_t))
+              |                      ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:32:12: error: use of undeclared identifier 'u_int16_t'
+           32 |   ('0' + ((SIZE / 10)%10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:27:22: note: expanded from macro 'SIZE'
+           27 | #define SIZE (sizeof(u_int16_t))
+              |                      ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:33:12: error: use of undeclared identifier 'u_int16_t'
+           33 |   ('0' +  (SIZE    % 10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4neu11/U_INT16_SIZE.c:27:22: note: expanded from macro 'SIZE'\x0d
+           27 | #define SIZE (sizeof(u_int16_t))\x0d
+              |                      ^\x0d
+        5 errors generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:6 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int32_t"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-66gapo"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-66gapo"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-66gapo'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_39d6d
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_39d6d.dir/INT32_SIZE.c.obj -MF CMakeFiles\\cmTC_39d6d.dir\\INT32_SIZE.c.obj.d -o CMakeFiles/cmTC_39d6d.dir/INT32_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-66gapo/INT32_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_39d6d.dir/INT32_SIZE.c.obj -o cmTC_39d6d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_39d6d.lib -Xlinker /pdb:cmTC_39d6d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:7 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of uint32_t"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p3gqmz"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p3gqmz"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UINT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p3gqmz'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_37dc0
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_37dc0.dir/UINT32_SIZE.c.obj -MF CMakeFiles\\cmTC_37dc0.dir\\UINT32_SIZE.c.obj.d -o CMakeFiles/cmTC_37dc0.dir/UINT32_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p3gqmz/UINT32_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_37dc0.dir/UINT32_SIZE.c.obj -o cmTC_37dc0.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_37dc0.lib -Xlinker /pdb:cmTC_37dc0.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:8 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of u_int32_t"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_U_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_a2493
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_a2493.dir/U_INT32_SIZE.c.obj -MF CMakeFiles\\cmTC_a2493.dir\\U_INT32_SIZE.c.obj.d -o CMakeFiles/cmTC_a2493.dir/U_INT32_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c
+        FAILED: CMakeFiles/cmTC_a2493.dir/U_INT32_SIZE.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_a2493.dir/U_INT32_SIZE.c.obj -MF CMakeFiles\\cmTC_a2493.dir\\U_INT32_SIZE.c.obj.d -o CMakeFiles/cmTC_a2493.dir/U_INT32_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:29:12: error: use of undeclared identifier 'u_int32_t'
+           29 |   ('0' + ((SIZE / 10000)%10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:27:22: note: expanded from macro 'SIZE'
+           27 | #define SIZE (sizeof(u_int32_t))
+              |                      ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:30:12: error: use of undeclared identifier 'u_int32_t'
+           30 |   ('0' + ((SIZE / 1000)%10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:27:22: note: expanded from macro 'SIZE'
+           27 | #define SIZE (sizeof(u_int32_t))
+              |                      ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:31:12: error: use of undeclared identifier 'u_int32_t'
+           31 |   ('0' + ((SIZE / 100)%10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:27:22: note: expanded from macro 'SIZE'
+           27 | #define SIZE (sizeof(u_int32_t))
+              |                      ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:32:12: error: use of undeclared identifier 'u_int32_t'
+           32 |   ('0' + ((SIZE / 10)%10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:27:22: note: expanded from macro 'SIZE'
+           27 | #define SIZE (sizeof(u_int32_t))
+              |                      ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:33:12: error: use of undeclared identifier 'u_int32_t'
+           33 |   ('0' +  (SIZE    % 10)),
+              |            ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-4ulw4a/U_INT32_SIZE.c:27:22: note: expanded from macro 'SIZE'\x0d
+           27 | #define SIZE (sizeof(u_int32_t))\x0d
+              |                      ^\x0d
+        5 errors generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:9 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int64_t"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-3a0oej"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-3a0oej"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT64_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-3a0oej'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_96000
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_96000.dir/INT64_SIZE.c.obj -MF CMakeFiles\\cmTC_96000.dir\\INT64_SIZE.c.obj.d -o CMakeFiles/cmTC_96000.dir/INT64_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-3a0oej/INT64_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_96000.dir/INT64_SIZE.c.obj -o cmTC_96000.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_96000.lib -Xlinker /pdb:cmTC_96000.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:10 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-0xxexs"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-0xxexs"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SHORT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-0xxexs'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e149e
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_e149e.dir/SHORT_SIZE.c.obj -MF CMakeFiles\\cmTC_e149e.dir\\SHORT_SIZE.c.obj.d -o CMakeFiles/cmTC_e149e.dir/SHORT_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-0xxexs/SHORT_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_e149e.dir/SHORT_SIZE.c.obj -o cmTC_e149e.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e149e.lib -Xlinker /pdb:cmTC_e149e.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:11 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-vinnvl"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-vinnvl"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-vinnvl'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_7512b
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_7512b.dir/INT_SIZE.c.obj -MF CMakeFiles\\cmTC_7512b.dir\\INT_SIZE.c.obj.d -o CMakeFiles/cmTC_7512b.dir/INT_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-vinnvl/INT_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_7512b.dir/INT_SIZE.c.obj -o cmTC_7512b.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_7512b.lib -Xlinker /pdb:cmTC_7512b.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:12 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1rddop"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1rddop"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1rddop'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_9c18d
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_9c18d.dir/LONG_SIZE.c.obj -MF CMakeFiles\\cmTC_9c18d.dir\\LONG_SIZE.c.obj.d -o CMakeFiles/cmTC_9c18d.dir/LONG_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1rddop/LONG_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_9c18d.dir/LONG_SIZE.c.obj -o cmTC_9c18d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9c18d.lib -Xlinker /pdb:cmTC_9c18d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/debug/_deps/ogg-src/cmake/CheckSizes.cmake:13 (check_type_size)"
+      - "build/debug/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-bdmh3y"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-bdmh3y"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LONG_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-bdmh3y'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_d464a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_d464a.dir/LONG_LONG_SIZE.c.obj -MF CMakeFiles\\cmTC_d464a.dir\\LONG_LONG_SIZE.c.obj.d -o CMakeFiles/cmTC_d464a.dir/LONG_LONG_SIZE.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-bdmh3y/LONG_LONG_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_d464a.dir/LONG_LONG_SIZE.c.obj -o cmTC_d464a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_d464a.lib -Xlinker /pdb:cmTC_d464a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/debug/_deps/flac-src/cmake/UseSystemExtensions.cmake:3 (check_c_source_compiles)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:107 (include)"
+    checks:
+      - "Performing Test HAVE_MBSTATE"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-dkheyd"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-dkheyd"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_MBSTATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-dkheyd'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_4d576
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_MBSTATE  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_4d576.dir/src.c.obj -MF CMakeFiles\\cmTC_4d576.dir\\src.c.obj.d -o CMakeFiles/cmTC_4d576.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-dkheyd/src.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-dkheyd/src.c:4:13: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]\x0d
+            4 |     int main() { return 0; }\x0d
+              |             ^\x0d
+              |              void\x0d
+        1 warning generated.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_4d576.dir/src.c.obj -o cmTC_4d576.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_4d576.lib -Xlinker /pdb:cmTC_4d576.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/debug/_deps/flac-src/cmake/UseSystemExtensions.cmake:16 (check_c_source_compiles)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:107 (include)"
+    checks:
+      - "Performing Test DODEFINE_EXTENSIONS"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6vgv1d"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6vgv1d"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "DODEFINE_EXTENSIONS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6vgv1d'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_6bc72
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DDODEFINE_EXTENSIONS  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_6bc72.dir/src.c.obj -MF CMakeFiles\\cmTC_6bc72.dir\\src.c.obj.d -o CMakeFiles/cmTC_6bc72.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6vgv1d/src.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6vgv1d/src.c:36:13: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]\x0d
+           36 |     int main() { return 0; }\x0d
+              |             ^\x0d
+              |              void\x0d
+        1 warning generated.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_6bc72.dir/src.c.obj -o cmTC_6bc72.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_6bc72.lib -Xlinker /pdb:cmTC_6bc72.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:111 (check_include_file)"
+    checks:
+      - "Looking for byteswap.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ju74sr"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ju74sr"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ju74sr'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_7033b
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_7033b.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_7033b.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_7033b.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ju74sr/CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_7033b.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_7033b.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_7033b.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_7033b.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ju74sr/CheckIncludeFile.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-ju74sr/CheckIncludeFile.c:1:10: fatal error: 'byteswap.h' file not found\x0d
+            1 | #include <byteswap.h>\x0d
+              |          ^~~~~~~~~~~~\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:112 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-7f2vll"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-7f2vll"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-7f2vll'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_ab9ba
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_ab9ba.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_ab9ba.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_ab9ba.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-7f2vll/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_ab9ba.dir/CheckIncludeFile.c.obj -o cmTC_ab9ba.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ab9ba.lib -Xlinker /pdb:cmTC_ab9ba.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:114 (check_include_file)"
+    checks:
+      - "Looking for stdbool.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-gtakdl"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-gtakdl"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-gtakdl'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_9800a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_9800a.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_9800a.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_9800a.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-gtakdl/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_9800a.dir/CheckIncludeFile.c.obj -o cmTC_9800a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_9800a.lib -Xlinker /pdb:cmTC_9800a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:115 (check_include_file)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hrgy01"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hrgy01"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "FLAC__HAS_NEONINTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hrgy01'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_6e9cc
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_6e9cc.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_6e9cc.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_6e9cc.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hrgy01/CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_6e9cc.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_6e9cc.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_6e9cc.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_6e9cc.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hrgy01/CheckIncludeFile.c
+        In file included from C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hrgy01/CheckIncludeFile.c:1:
+        C:\\Program Files\\LLVM\\lib\\clang\\19\\include\\arm_neon.h:28:2: error: "NEON intrinsics not available with the soft-float ABI. Please use -mfloat-abi=softfp or -mfloat-abi=hard"
+           28 | #error "NEON intrinsics not available with the soft-float ABI. Please use -mfloat-abi=softfp or -mfloat-abi=hard"\x0d
+              |  ^\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:124 (check_include_file)"
+    checks:
+      - "Looking for x86intrin.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-sv7ui0"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-sv7ui0"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "FLAC__HAS_X86INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-sv7ui0'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e777d
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_e777d.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_e777d.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_e777d.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-sv7ui0/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_e777d.dir/CheckIncludeFile.c.obj -o cmTC_e777d.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e777d.lib -Xlinker /pdb:cmTC_e777d.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:127 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-wyy6c1"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-wyy6c1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-wyy6c1'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_f8a6a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_f8a6a.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_f8a6a.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_f8a6a.dir/CheckFunctionExists.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-wyy6c1/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_f8a6a.dir/CheckFunctionExists.c.obj -o cmTC_f8a6a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f8a6a.lib -Xlinker /pdb:cmTC_f8a6a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_f8a6a.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=fseeko -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_f8a6a.dir/CheckFunctionExists.c.obj -o cmTC_f8a6a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_f8a6a.lib -Xlinker /pdb:cmTC_f8a6a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: undefined symbol: fseeko
+        >>> referenced by C:\\Users\\benja\\source\\repos\\walliscode\\Cuttlefish\\build\\debug\\CMakeFiles\\CMakeScratch\\TryCompile-wyy6c1\\CheckFunctionExists.c:17
+        >>>               CMakeFiles/cmTC_f8a6a.dir/CheckFunctionExists.c.obj:(main)
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:129 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP16"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-xwv5al"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-xwv5al"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BSWAP16"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-xwv5al'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1e0b2
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_BSWAP16  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_1e0b2.dir/src.c.obj -MF CMakeFiles\\cmTC_1e0b2.dir\\src.c.obj.d -o CMakeFiles/cmTC_1e0b2.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-xwv5al/src.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-xwv5al/src.c:1:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]\x0d
+            1 | int main() { return __builtin_bswap16 (0) ; }\x0d
+              |         ^\x0d
+              |          void\x0d
+        1 warning generated.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_1e0b2.dir/src.c.obj -o cmTC_1e0b2.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1e0b2.lib -Xlinker /pdb:cmTC_1e0b2.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:130 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP32"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-f2400z"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-f2400z"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BSWAP32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-f2400z'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_2719a
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_BSWAP32  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_2719a.dir/src.c.obj -MF CMakeFiles\\cmTC_2719a.dir\\src.c.obj.d -o CMakeFiles/cmTC_2719a.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-f2400z/src.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-f2400z/src.c:1:9: warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]\x0d
+            1 | int main() { return __builtin_bswap32 (0) ; }\x0d
+              |         ^\x0d
+              |          void\x0d
+        1 warning generated.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_2719a.dir/src.c.obj -o cmTC_2719a.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_2719a.lib -Xlinker /pdb:cmTC_2719a.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:131 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LANGINFO_CODESET"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1z8jn1"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1z8jn1"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LANGINFO_CODESET"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1z8jn1'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_537ee
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_LANGINFO_CODESET  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_537ee.dir/src.c.obj -MF CMakeFiles\\cmTC_537ee.dir\\src.c.obj.d -o CMakeFiles/cmTC_537ee.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1z8jn1/src.c
+        FAILED: CMakeFiles/cmTC_537ee.dir/src.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_LANGINFO_CODESET  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_537ee.dir/src.c.obj -MF CMakeFiles\\cmTC_537ee.dir\\src.c.obj.d -o CMakeFiles/cmTC_537ee.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1z8jn1/src.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-1z8jn1/src.c:2:14: fatal error: 'langinfo.h' file not found\x0d
+            2 |     #include <langinfo.h>\x0d
+              |              ^~~~~~~~~~~~\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:142 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WERROR_FLAG"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-t9a65y"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-t9a65y"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_WERROR_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-t9a65y'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_190c4
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_WERROR_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -Werror -MD -MT CMakeFiles/cmTC_190c4.dir/src.c.obj -MF CMakeFiles\\cmTC_190c4.dir\\src.c.obj.d -o CMakeFiles/cmTC_190c4.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-t9a65y/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_190c4.dir/src.c.obj -o cmTC_190c4.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_190c4.lib -Xlinker /pdb:cmTC_190c4.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:143 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_DECL_AFTER_STMT_FLAG"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-wtvsbo"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-wtvsbo"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_DECL_AFTER_STMT_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-wtvsbo'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_8a077
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_DECL_AFTER_STMT_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -Wdeclaration-after-statement -MD -MT CMakeFiles/cmTC_8a077.dir/src.c.obj -MF CMakeFiles\\cmTC_8a077.dir\\src.c.obj.d -o CMakeFiles/cmTC_8a077.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-wtvsbo/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_8a077.dir/src.c.obj -o cmTC_8a077.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_8a077.lib -Xlinker /pdb:cmTC_8a077.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:144 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_STACKREALIGN_FLAG"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-0aqh3x"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-0aqh3x"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STACKREALIGN_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-0aqh3x'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_8e226
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_STACKREALIGN_FLAG  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -mstackrealign -MD -MT CMakeFiles/cmTC_8e226.dir/src.c.obj -MF CMakeFiles\\cmTC_8e226.dir\\src.c.obj.d -o CMakeFiles/cmTC_8e226.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-0aqh3x/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_8e226.dir/src.c.obj -o cmTC_8e226.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_8e226.lib -Xlinker /pdb:cmTC_8e226.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "build/debug/_deps/flac-src/CMakeLists.txt:145 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WEFFCXX_FLAG"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-t3ct3a"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-t3ct3a"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: "-Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef "
+      CMAKE_CXX_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_WEFFCXX_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-t3ct3a'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_04de4
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_WEFFCXX_FLAG  -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -Weffc++ -MD -MT CMakeFiles/cmTC_04de4.dir/src.cxx.obj -MF CMakeFiles\\cmTC_04de4.dir\\src.cxx.obj.d -o CMakeFiles/cmTC_04de4.dir/src.cxx.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-t3ct3a/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wcast-align -Wshadow -Wwrite-strings -Wctor-dtor-privacy -Wnon-virtual-dtor -Wreorder -Wsign-promo -Wundef   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_04de4.dir/src.cxx.obj -o cmTC_04de4.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_04de4.lib -Xlinker /pdb:cmTC_04de4.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:3 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9m72ki"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9m72ki"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9m72ki'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_e8333
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_e8333.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_e8333.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_e8333.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9m72ki/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_e8333.dir/CheckIncludeFile.c.obj -o cmTC_e8333.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_e8333.lib -Xlinker /pdb:cmTC_e8333.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "build/debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:4 (check_include_file)"
+    checks:
+      - "Looking for sys/param.h"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hnb3yi"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hnb3yi"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hnb3yi'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_811d2
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_811d2.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_811d2.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_811d2.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hnb3yi/CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_811d2.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_811d2.dir/CheckIncludeFile.c.obj -MF CMakeFiles\\cmTC_811d2.dir\\CheckIncludeFile.c.obj.d -o CMakeFiles/cmTC_811d2.dir/CheckIncludeFile.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hnb3yi/CheckIncludeFile.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-hnb3yi/CheckIncludeFile.c:1:10: fatal error: 'sys/param.h' file not found\x0d
+            1 | #include <sys/param.h>\x0d
+              |          ^~~~~~~~~~~~~\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "build/debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:7 (check_function_exists)"
+    checks:
+      - "Looking for lround"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p8zoh8"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p8zoh8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LROUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p8zoh8'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_43639
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_43639.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_43639.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_43639.dir/CheckFunctionExists.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p8zoh8/CheckFunctionExists.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p8zoh8/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'lround' [-Wincompatible-library-redeclaration]
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+            1 | #define CHECK_FUNCTION_EXISTS lround
+              |                               ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-p8zoh8/CheckFunctionExists.c:7:3: note: 'lround' is a builtin with type 'long (double)'\x0d
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'\x0d
+            1 | #define CHECK_FUNCTION_EXISTS lround\x0d
+              |                               ^\x0d
+        1 warning generated.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_43639.dir/CheckFunctionExists.c.obj -o cmTC_43639.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_43639.lib -Xlinker /pdb:cmTC_43639.pdb -Xlinker /version:0.0   -lm.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_43639.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=lround -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_43639.dir/CheckFunctionExists.c.obj -o cmTC_43639.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_43639.lib -Xlinker /pdb:cmTC_43639.pdb -Xlinker /version:0.0   -lm.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'm.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "build/debug/_deps/flac-src/cmake/CheckCPUArch.cmake:6 (try_compile)"
+      - "build/debug/_deps/flac-src/cmake/CheckCPUArch.cmake:18 (_CHECK_CPU_ARCH)"
+      - "build/debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:13 (check_cpu_arch_x64)"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FLAC__CPU_X86_64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_78a7c
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_78a7c.dir/CheckCPUArch.c.obj -MF CMakeFiles\\cmTC_78a7c.dir\\CheckCPUArch.c.obj.d -o CMakeFiles/cmTC_78a7c.dir/CheckCPUArch.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-build/CMakeFiles/CMakeTmp/CheckCPUArch.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_78a7c.dir/CheckCPUArch.c.obj -o cmTC_78a7c.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_78a7c.lib -Xlinker /pdb:cmTC_78a7c.pdb -Xlinker /version:0.0   -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "build/debug/_deps/flac-src/src/libFLAC/CMakeLists.txt:101 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_ASSOC_MATH"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-v8vl5v"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-v8vl5v"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_ASSOC_MATH"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-v8vl5v'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_1f950
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe -DHAVE_ASSOC_MATH  -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview   -fassociative-math -fno-signed-zeros -fno-trapping-math -freciprocal-math -MD -MT CMakeFiles/cmTC_1f950.dir/src.c.obj -MF CMakeFiles\\cmTC_1f950.dir\\src.c.obj.d -o CMakeFiles/cmTC_1f950.dir/src.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-v8vl5v/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_1f950.dir/src.c.obj -o cmTC_1f950.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1f950.lib -Xlinker /pdb:cmTC_1f950.pdb -Xlinker /version:0.0   -lm.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_1f950.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline   -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_1f950.dir/src.c.obj -o cmTC_1f950.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_1f950.lib -Xlinker /pdb:cmTC_1f950.pdb -Xlinker /version:0.0   -lm.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'm.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "build/debug/_deps/flac-src/microbench/CMakeLists.txt:6 (check_function_exists)"
+    checks:
+      - "Looking for clock_gettime"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6r94sd"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6r94sd"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: "-Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline "
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6r94sd'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_b2f91
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=clock_gettime -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_b2f91.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_b2f91.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_b2f91.dir/CheckFunctionExists.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-6r94sd/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=clock_gettime -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_b2f91.dir/CheckFunctionExists.c.obj -o cmTC_b2f91.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b2f91.lib -Xlinker /pdb:cmTC_b2f91.pdb -Xlinker /version:0.0   -lrt.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_b2f91.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -Wall -Wextra -Wstrict-prototypes -Wmissing-prototypes -Waggregate-return -Wcast-align -Wnested-externs -Wshadow -Wundef -Wmissing-declarations -Winline  -DCHECK_FUNCTION_EXISTS=clock_gettime -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_b2f91.dir/CheckFunctionExists.c.obj -o cmTC_b2f91.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b2f91.lib -Xlinker /pdb:cmTC_b2f91.pdb -Xlinker /version:0.0   -lrt.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'rt.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "build/debug/_deps/vorbis-src/CMakeLists.txt:62 (check_library_exists)"
+    checks:
+      - "Looking for floor in m"
+    directories:
+      source: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9whbbx"
+      binary: "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9whbbx"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-O0"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/benja/source/repos/walliscode/Cuttlefish/cmake;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/sfml-src/cmake/Modules/;C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/vorbis-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9whbbx'
+        
+        Run Build Command(s): C:/ProgramData/chocolatey/bin/ninja.exe -v cmTC_831eb
+        [1/2] C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -DCHECK_FUNCTION_EXISTS=floor -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -MD -MT CMakeFiles/cmTC_831eb.dir/CheckFunctionExists.c.obj -MF CMakeFiles\\cmTC_831eb.dir\\CheckFunctionExists.c.obj.d -o CMakeFiles/cmTC_831eb.dir/CheckFunctionExists.c.obj -c C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9whbbx/CheckFunctionExists.c
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9whbbx/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+            7 |   CHECK_FUNCTION_EXISTS(void);
+              |   ^
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+            1 | #define CHECK_FUNCTION_EXISTS floor
+              |                               ^
+        C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/CMakeScratch/TryCompile-9whbbx/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'\x0d
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'\x0d
+            1 | #define CHECK_FUNCTION_EXISTS floor\x0d
+              |                               ^\x0d
+        1 warning generated.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=floor -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_831eb.dir/CheckFunctionExists.c.obj -o cmTC_831eb.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_831eb.lib -Xlinker /pdb:cmTC_831eb.pdb -Xlinker /version:0.0   -lm.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        FAILED: cmTC_831eb.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -DCHECK_FUNCTION_EXISTS=floor -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview -Xlinker /subsystem:console  -fuse-ld=lld-link CMakeFiles/cmTC_831eb.dir/CheckFunctionExists.c.obj -o cmTC_831eb.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_831eb.lib -Xlinker /pdb:cmTC_831eb.pdb -Xlinker /version:0.0   -lm.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames  && cd ."
+        lld-link: error: could not open 'm.lib': no such file or directory\x0d
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
 ...

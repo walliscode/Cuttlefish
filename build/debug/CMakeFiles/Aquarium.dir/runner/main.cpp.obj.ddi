@@ -1,0 +1,14 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles\\Aquarium.dir\\runner\\main.cpp.obj",
+      "requires": [
+        {
+          "logical-name": "display"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

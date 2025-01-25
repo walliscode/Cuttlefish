@@ -1,0 +1,3 @@
+C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate.dir
+C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/vorbis-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/_deps/vorbis-subbuild/CMakeFiles/rebuild_cache.dir

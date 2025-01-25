@@ -1,0 +1,16 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "build\\debug"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\cmake",
+    "\\runner",
+    "\\src",
+    "\\src\\display"
+  ],
+  "SelectedNode": "\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}

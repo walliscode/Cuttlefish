@@ -1,0 +1,21 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\Display\\CMakeFiles\\display.dir\\display.cppm.obj",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "display",
+          "source-path": "C:/Users/benja/source/repos/walliscode/Cuttlefish/src/display/display.cppm"
+        }
+      ],
+      "requires": [
+        {
+          "logical-name": "display:display_manager"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

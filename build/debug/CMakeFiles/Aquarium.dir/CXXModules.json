@@ -1,0 +1,23 @@
+{
+	"modules" : {},
+	"references" : 
+	{
+		"display" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/Display/CMakeFiles/display.dir/display.pcm"
+		},
+		"display:display_manager" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/Display/CMakeFiles/display.dir/display-display_manager.pcm"
+		}
+	},
+	"usages" : 
+	{
+		"display" : 
+		[
+			"display:display_manager"
+		]
+	}
+}

@@ -1,8 +1,8 @@
 {
-  "version": 10,
+  "version": 6,
   "cmakeMinimumRequired": {
     "major": 3,
-    "minor": 30
+    "minor": 31
   },
   "configurePresets": [
     {
@@ -12,7 +12,8 @@
       "binaryDir": "${sourceDir}/build/${presetName}",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "CMAKE_CXX_COMPILER": "clang.exe"
+        "CMAKE_CXX_COMPILER": "clang.exe",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
       }
     }
   ],
@@ -20,9 +21,6 @@
     {
       "configurePreset": "debug",
       "name": "debug"
-
-
     }
   ]
-
 }
