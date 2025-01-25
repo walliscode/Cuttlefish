@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "MSVC",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug",
+	"dir-cur-src" : "C:/Users/benja/source/repos/walliscode/Cuttlefish",
+	"dir-top-bld" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug",
+	"dir-top-src" : "C:/Users/benja/source/repos/walliscode/Cuttlefish",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/src/Display/CMakeFiles/display.dir"
+	],
+	"module-dir" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/CMakeFiles/Aquarium.dir",
+	"sources" : 
+	{
+		"CMakeFiles/Aquarium.dir/runner/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/runner/main.cpp"
+		}
+	}
+}

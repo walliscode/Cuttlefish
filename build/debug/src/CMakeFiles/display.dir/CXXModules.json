@@ -1,0 +1,19 @@
+{
+	"modules" : 
+	{
+		"display_manager" : 
+		{
+			"bmi" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/src/CMakeFiles/display.dir/display_manager.pcm",
+			"is-private" : false
+		}
+	},
+	"references" : 
+	{
+		"display_manager" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "src/CMakeFiles/display.dir/display_manager.pcm"
+		}
+	},
+	"usages" : {}
+}

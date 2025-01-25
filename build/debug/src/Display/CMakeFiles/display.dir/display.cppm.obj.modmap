@@ -1,0 +1,3 @@
+-x c++-module
+-fmodule-output=src/Display/CMakeFiles/display.dir/display.pcm
+-fmodule-file=display:display_manager=src/Display/CMakeFiles/display.dir/display-display_manager.pcm

@@ -1,0 +1,35 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "MSVC",
+	"config" : "Debug",
+	"cxx-modules" : 
+	{
+		"src/CMakeFiles/display.dir/display_manager.cppm.obj" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "display_module_files",
+			"relative-directory" : "",
+			"source" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/src/display_manager.cppm",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/src",
+	"dir-cur-src" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/src",
+	"dir-top-bld" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug",
+	"dir-top-src" : "C:/Users/benja/source/repos/walliscode/Cuttlefish",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"_deps\\sfml-src\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/benja/source/repos/walliscode/Cuttlefish/build/debug/src/CMakeFiles/display.dir",
+	"sources" : {}
+}

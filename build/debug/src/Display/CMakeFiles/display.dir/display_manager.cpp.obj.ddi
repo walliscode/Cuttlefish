@@ -1,0 +1,14 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "src\\Display\\CMakeFiles\\display.dir\\display_manager.cpp.obj",
+      "requires": [
+        {
+          "logical-name": "display"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}

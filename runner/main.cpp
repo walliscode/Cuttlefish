@@ -1,10 +1,10 @@
-#include <iostream>
+import display;
 
 int main() {
 
-std::cout << "Hello World!\n";
+  DisplayManager dis;
+  dis.display();
+  dis.run();
 
-return 0;
-}
-
-
+  return 0;
+};
