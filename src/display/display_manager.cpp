@@ -30,3 +30,22 @@ void DisplayManager::run() {
     m_window.display();
   }
 };
+
+void DisplayManager::addSession(const size_t &sessionNumber) {
+  // create a new session and add it to the sessions vector at the given index
+  std::shared_ptr<Session> newSession = std::make_shared<Session>("tile1");
+
+  // create iterator for insertion
+  auto it = m_sessions.begin() + sessionNumber;
+  m_sessions.insert(it, newSession);
+};
+
+void DisplayManager::removeSession(const size_t &sessionNumber) {
+  // make sure we do not remove the first session
+  if (sessionNumber == 0) {
+    return;
+  }
+
+  // remove a session from the sessions vector at the given index
+  m_sessions.erase(m_sessions.begin() + sessionNumber);
+};
