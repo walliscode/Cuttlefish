@@ -1,4 +1,4 @@
-
+#pragma once
 
 #include <SFML/Graphics.hpp>
 
@@ -10,4 +10,5 @@ public:
 
 private:
   sf::View m_tile;
+  sf::FloatRect m_viewPort;
 };

@@ -2,6 +2,7 @@
 add_library(display
     display_manager.cpp
     tile.cpp
+    session.cpp
 )
 
 target_include_directories(display
