@@ -1,10 +1,9 @@
-import display;
+#include "display_manager.h"
 
 int main() {
 
-  DisplayManager dis;
-  dis.display();
-  dis.run();
+  DisplayManager dm;
+  dm.run();
 
   return 0;
 };

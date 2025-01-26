@@ -1,39 +1,32 @@
-module;
-#include <SFML/Graphics.hpp>
+#include "display_manager.h"
 #include <iostream>
-
-module display;
 
 DisplayManager::DisplayManager() { init(); };
 
 void DisplayManager::init() {
-  std::cout << "Initializing Window" << std::endl;
-  m_window.create(sf::VideoMode({800, 600}), "SFML works!");
-  std::cout << "Window intialised with dimensions: " << m_window.getSize().x
-            << "x" << m_window.getSize().y << std::endl;
-}
-
-void DisplayManager::display() { std::cout << "Displaying" << std::endl; };
+  std::cout << "Creating window" << std::endl;
+  m_window.create(sf::VideoMode({1200, 900}), "SFML window");
+};
 
 void DisplayManager::run() {
-
-  // run the program as long as the window is open
   while (m_window.isOpen()) {
-    // check all the window's events that were triggered since the last
-    // iteration of the loop
+
+    // add in options for overwriding user input such as closing the program
     while (const std::optional event = m_window.pollEvent()) {
-      // "close requested" event: we close the window
-      if (event->is<sf::Event::Closed>())
+      if (event->is<sf::Event::Closed>()) {
         m_window.close();
+      }
     }
 
-    // clear the window with black color
+    // clear window; this has to happen to prevent previous buffers from being
+    // drawn
     m_window.clear(sf::Color::Black);
 
-    // draw everything here...
-    // window.draw(...);
+    // draw all the drawables provided to the display manager class u {
+    for (const auto &drawable : drawables) {
+      m_window.draw(*drawable);
+    }
 
-    // end the current frame
     m_window.display();
   }
 };
