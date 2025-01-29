@@ -1,6 +1,7 @@
 #pragma once
 #include "session.h"
 #include <SFML/Graphics.hpp>
+#include <array>
 #include <memory>
 
 class DisplayManager {
@@ -18,6 +19,6 @@ public:
 
 private:
   sf::RenderWindow m_window;
-  std::vector<std::shared_ptr<Session>> m_sessions;
+  std::array<std::shared_ptr<Session>, 5> m_sessions;
   std::vector<std::shared_ptr<sf::Drawable>> drawables;
 };

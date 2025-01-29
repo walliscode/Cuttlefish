@@ -1,11 +1,18 @@
 #include "display_manager.h"
 #include <iostream>
 
-DisplayManager::DisplayManager() { init(); };
+DisplayManager::DisplayManager() {
+  m_sessions.fill(nullptr);
+  init();
+};
 
 void DisplayManager::init() {
+  // create the window
   std::cout << "Creating window" << std::endl;
   m_window.create(sf::VideoMode({1200, 900}), "SFML window");
+
+  // add a Session to the sessions vector at position 0
+  addSession(0);
 };
 
 void DisplayManager::run() {
@@ -32,12 +39,10 @@ void DisplayManager::run() {
 };
 
 void DisplayManager::addSession(const size_t &sessionNumber) {
+  // check if vector is empty at
   // create a new session and add it to the sessions vector at the given index
   std::shared_ptr<Session> newSession = std::make_shared<Session>("tile1");
-
-  // create iterator for insertion
-  auto it = m_sessions.begin() + sessionNumber;
-  m_sessions.insert(it, newSession);
+  m_sessions[sessionNumber] = newSession;
 };
 
 void DisplayManager::removeSession(const size_t &sessionNumber) {
@@ -46,6 +51,6 @@ void DisplayManager::removeSession(const size_t &sessionNumber) {
     return;
   }
 
-  // remove a session from the sessions vector at the given index
-  m_sessions.erase(m_sessions.begin() + sessionNumber);
+  // remove the session at the given index
+  m_sessions[sessionNumber] = nullptr;
 };
