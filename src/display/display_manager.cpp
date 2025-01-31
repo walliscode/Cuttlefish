@@ -22,7 +22,9 @@ void DisplayManager::run() {
     while (const std::optional event = m_window.pollEvent()) {
       if (event->is<sf::Event::Closed>()) {
         m_window.close();
-      }
+      } else if (const auto *KeyPressed =
+                     event->getIf<sf::Event::KeyPressed>()) {
+      };
     }
 
     // clear window; this has to happen to prevent previous buffers from being
@@ -39,7 +41,10 @@ void DisplayManager::run() {
 };
 
 void DisplayManager::addSession(const size_t &sessionNumber) {
-  // check if vector is empty at
+  // return early if the session number is out of bounds
+  if (sessionNumber >= m_sessions.size()) {
+    return;
+  }
   // create a new session and add it to the sessions vector at the given index
   std::shared_ptr<Session> newSession = std::make_shared<Session>("tile1");
   m_sessions[sessionNumber] = newSession;
