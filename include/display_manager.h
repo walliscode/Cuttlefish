@@ -1,4 +1,5 @@
 #pragma once
+#include "event_handler.h"
 #include "session.h"
 #include <SFML/Graphics.hpp>
 #include <array>
@@ -18,6 +19,7 @@ public:
   void removeSession(const size_t &sessionNumber);
 
 private:
+  EventHandler m_eventHandler;
   sf::RenderWindow m_window;
   std::array<std::shared_ptr<Session>, 5> m_sessions;
   std::vector<std::shared_ptr<sf::Drawable>> drawables;

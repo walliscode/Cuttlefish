@@ -1,5 +1,7 @@
 #include "display_manager.h"
+#include <cstddef>
 #include <iostream>
+#include <optional>
 
 DisplayManager::DisplayManager() {
   m_sessions.fill(nullptr);
@@ -17,15 +19,35 @@ void DisplayManager::init() {
 
 void DisplayManager::run() {
   while (m_window.isOpen()) {
+    // set variables to be used in the loop
+
+    // reset the event handler so that events are quarantined
+    m_eventHandler.setRelease(false);
 
     // add in options for overwriding user input such as closing the program
     while (const std::optional event = m_window.pollEvent()) {
+
       if (event->is<sf::Event::Closed>()) {
         m_window.close();
+
       } else if (const auto *KeyPressed =
                      event->getIf<sf::Event::KeyPressed>()) {
+
+        // get pressed key code and pass to Event Handler
+        size_t keyCode = static_cast<size_t>(KeyPressed->scancode);
+        m_eventHandler.ProcessKeyboardPressed(keyCode);
+
+      } else if (const auto *KeyReleased =
+                     event->getIf<sf::Event::KeyReleased>()) {
+
+        // get released key code and pass to Event Handler
+        size_t keyCode = static_cast<size_t>(KeyReleased->scancode);
+        m_eventHandler.ProcessKeyboardReleased(keyCode);
       };
-    }
+    };
+
+    // process any logic that needs to happen after all events are cleared
+    m_eventHandler.setRelease(true);
 
     // clear window; this has to happen to prevent previous buffers from being
     // drawn

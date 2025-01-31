@@ -15,4 +15,5 @@ message("display include dir: ${CMAKE_SOURCE_DIR}/include")
 target_link_libraries(display
     PUBLIC
       SFML::Graphics
+      action
 )
